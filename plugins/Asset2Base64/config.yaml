@@ -1,0 +1,13 @@
+name: Asset2Base64
+id  : Asset2Base64
+key:  asset2base64
+version: 0.1
+author_link: http://alfasado.net/
+author_name: Alfasado Inc.
+l10n_class: Asset2Base64::L10N
+description: <__trans phrase="It available convert asset to Base64.">
+tags:
+    function:
+        AssetThumbnailFile: $asset2base64::Asset2Base64::Plugin::_hdlr_asset_thumbnail_file
+    modifier:
+        convert2base64: $asset2base64::Asset2Base64::Plugin::_filter_convert2base64
